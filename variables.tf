@@ -7,7 +7,7 @@ variable "aws_region" {
 
 variable "key_name" {
   description = " SSH keys to connect to ec2 instance"
-  default     =  "myinanpang-keypair01.pem"
+  default     =  "/home/ec2-user/myinanpang-keypair01.pem"
 }
 
 variable "instance_type" {
